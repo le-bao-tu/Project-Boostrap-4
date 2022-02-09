@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.web{
+    width:100%;
+    background-color: rgb(69, 53, 53,0.4);
+    position: absolute;
+    z-index: 10;
+    
+}
+.menu{
+    margin-top: -15px;
+}
+
+.a{
+    border-right: solid 1.6px white;
+    margin-top: 15px;
+    padding: 0px 10px 0px 2px;
+}
+.logo{
+    display: flex;
+}
+.my{
+    border-right: solid 1.6px white;
+    padding: 1px 10px 1px 2px;
+   
+}
+
+.her{
+    border-left: solid 1.6px white;
+    padding: 0px 10px 0px 7px;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, 
+.navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .nav-link.show, 
+.navbar-light .navbar-nav .show>.nav-link{
+    color: rgb(255, 196, 0);
+    font-size: 12px;
+    font-weight: 655;
+}
+.nav-item .nav-link{
+    font-size: 12px;
+    font-weight: 655;
+    text-transform: uppercase;
+}
+
+.collapse li{
+    padding-left: 4px;
+}
+
+.nen img{
+    width: 100%;
+}
+
+.akey{
+    border-bottom: solid 1px white;
+}
+.nav-link{
+    font-size: 14px;
+}
+.a{
+    border-right: solid 1px white;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: -4px;
+}
+.dropdown-item{
+    font-size: 13px;
+}
+.nen{
+    position: relative;
+    min-height: 650px;
+    background: url(/image/anh3.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.noidung{
+   padding: 127px;
+}
+
+.h1, h1{
+    font-size: 3.8rem;
+    font-family: 'Noto Serif', serif;
+    font-weight: 800;
+}
+
+.p, p{
+    font-size: 0.8rem;
+    font-family: 'Noto Serif', serif;
+    font-weight: 500;
+    color: #66410c;
+}
+.noidung , h3{
+    font-family: 'Noto Serif', serif ;
+    font-size: 0.79rem;
+    letter-spacing: 3px;
+    color: #66410c;
+}
+
+/* chia khối */
+
+.khoi{
+    /* background-color: tomato; */
+    width: 100%;
+    /* margin-left: 55%; */
+    margin-top: 15%;
+}
+.khoi h2{
+    font-family: 'Noto Serif', serif;
+    font-weight: 700;
+    font-size: 38px;
+}
+.khoi p{
+    font-family:  'Nunito', sans-serif;
+    font-size: 8px;
+    letter-spacing: 3px;
+    color: #66410c;
+}
+.khoi i{
+    font-family: 'Noto Serif', serif;
+    font-size: 16px;
+    color: #66410c;
+}
+
+.breadcrumb {
+    background-color: transparent;
+}
+.our{
+    text-align: center;
+    margin-top: 3%;
+}
+.giua  .active{
+    text-align: center;
+}
+.our h2{
+    font-family: 'Noto Serif', serif;
+    font-weight: 900;
+    font-size: 40px;
+}
+.our p{
+    font-family:  'Nunito', sans-serif;
+    font-size: 8px;
+    letter-spacing: 3px;
+    color: #66410c;
+    word-spacing: 3px;
+}
+.giua li{
+    font-size: 18px;
+    font-weight: 700;
+    color: #1c1c1a;
+}
+
+/* Khối 02 */
+.nentong{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: 70px auto;
+}
+
+.nencon11{
+    min-height: 450px;
+    background: url(/image/anhnen.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#aaa{
+    width: 100%; 
+    position: absolute; 
+    bottom: 449px;
+}
+
+/* Khối 03 */
+.sanpham1{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.sanpham1 h2{
+    font-size: 2.2rem;
+    font-weight: 800;
+}
+
+.sanpham1 p span{
+    font-size: 10px;
+    letter-spacing: 7px;
+}
+
+.breadcrumb{
+    padding: 0 0;
+    background-color: transparent;
+}
+
+.breadcrumb-item a{
+    font-size: 20px;
+    color: #000000;
+}
+
+ol.breadcrumb li a:hover {
+    color: #000000;
+}
+
+.chinhsanpham{
+    text-align: center;
+}
+
+.chinhsanpham p{
+    font-size: 12px;
+}
+
+.chinhsanpham h5{
+    font-family: Brush Script MT;
+    font-weight: 800;
+    color: burlywood;
+}
+
+.buttonhang{
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 10px;
+    background-color: rgb(182, 147, 107);
+    border: none;
+    cursor: pointer;
+    width: 70%;
+}
+.center{
+    text-align: center;
+    border: 1px solid black;
+}
+
+
+
+/* Khối 04 */
+.nen2{
+    width: 100%;
+    /* position: relative; */
+    min-height: 600px;
+    background: url(/image/anh22.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 70px auto;
+}
+
+.fontchu{
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 30px;
+}
+
+.fontchu h2{
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.fontchu p{
+    font-size: 10px;
+    letter-spacing: 7px;
+    color: white;
+    word-spacing: 2px;
+}
+
+.nencon{
+    /* position: absolute; */
+    bottom: 15px;
+}
+.anhcon{
+    
+}
+
+/*Khối 06*/
+.nen333{
+    width: 100%;
+    /* position: relative; */
+    min-height: 350px;
+    background: url(/image/nen003.jpg);
+    background-position: center;
+    position: relative;
+}
+
+.nenbanh01{
+    position: absolute;
+    top: 120px;
+    text-align: center;
+}
+
+.khung1{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    /* background-color: antiquewhite; */
+}
+
+/* Khối 07 */
+/* Responsive */
+@media screen and (max-width: 991px) {
+    #khong{
+        position: sticky;
+    }
+    #aaa{
+        position: static;
+    }
+    .nentong{
+        margin: 0px auto;
+        margin-bottom: 50px;
+    }
+    .quangcao1{
+        margin: 0px auto;
+    }
+}
+@media screen and (max-width: 730px){
+    .nencon11{
+        background-image: none;
+        background-color: rgb(218, 184, 139);
+    }
+}
+
